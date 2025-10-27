@@ -110,11 +110,78 @@ python-interview-prep/
 │   ├── solved_log.json             # Completed sessions log
 │   └── stats.json                  # Performance analytics
 │
+├── learn/                          # Interactive data structure lessons
+│   ├── 01_strings/
+│   │   ├── lesson.py               # String exercises
+│   │   └── answers/
+│   │       └── check_strings.py    # Answer checker
+│   ├── 02_lists/
+│   ├── 03_tuples/
+│   ├── 04_dictionaries/
+│   ├── 05_sets/
+│   ├── 06_stacks/
+│   ├── 07_queues/
+│   ├── 08_deques/
+│   ├── 09_linked_lists/
+│   ├── 10_heaps/
+│   ├── 11_trees/
+│   ├── 12_graphs/
+│   ├── 13_tries/
+│   ├── check_all_lessons.py        # Master checker
+│   └── README.md
+│
 ├── cli.py                          # Main entry point for commands
 ├── config.py                       # Configuration settings
 ├── README.md
 └── requirements.txt
 ```
+
+## Learning Mode - Interactive Lessons
+
+The `learn/` directory contains structured, interactive lessons for mastering Python data structures.
+
+### How It Works
+
+Each data structure folder contains:
+1. **lesson.py** - Interactive exercises covering:
+   - What is this data structure?
+   - Basic operations with examples
+   - Simple exercises for beginners
+   - Intermediate operations and techniques
+   - Advanced challenge problems
+   - Real-world industry use cases
+
+2. **answers/check_*.py** - Automated answer checker that:
+   - Validates all your exercise implementations
+   - Provides immediate feedback
+   - Reports which exercises pass/fail
+
+### Using the Lessons
+
+```bash
+# Navigate to a lesson
+cd learn/01_strings
+
+# Complete exercises in lesson.py, then test
+python lesson.py
+
+# Or use the dedicated answer checker
+python answers/check_strings.py
+
+# Check all lessons at once
+cd learn
+python check_all_lessons.py
+```
+
+### Lesson Progression
+
+**Basic:** Strings → Lists → Tuples
+**Intermediate:** Dictionaries → Sets → Stacks → Queues → Deques
+**Advanced:** Linked Lists → Heaps → Trees → Graphs → Tries
+
+See `learn/README.md` for detailed learning path and tips.
+
+---
 
 ## Usage Commands
 
