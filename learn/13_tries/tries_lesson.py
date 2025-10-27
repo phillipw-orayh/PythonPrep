@@ -145,7 +145,7 @@ def exercise_3_word_search_board(board: list, word: str) -> bool:
         word_search_board(board, "ABCCED") -> True
         word_search_board(board, "ABCB") -> False
 
-    Hint: DFS with backtracking from each cell
+    Hint: Depth First Search (DFS) with backtracking from each cell
     """
     # TODO: Implement this function
     pass
