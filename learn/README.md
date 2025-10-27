@@ -2,6 +2,29 @@
 
 This directory contains interactive lessons for mastering Python data structures from basic to advanced concepts.
 
+## Getting Started
+
+⭐ **NEW LEARNERS: Start here!** ⭐
+
+**Before diving into the lessons, complete the interview preparation guide:**
+
+```bash
+cd learn/00_introduction
+python interview_guide.py
+```
+
+This guide provides:
+- Data structure interview frequency rankings (which to prioritize)
+- **7-Step Problem-Solving Framework** for any coding problem
+- Systematic approach to break down intimidating problems
+- 30-day structured learning roadmap
+- Pattern recognition for choosing the right data structure
+
+**Read the guide files:**
+- `interview_guide.py` - Comprehensive framework and practice problems
+- `quick_reference.md` - One-page cheat sheet (print this!)
+- `problem_breakdown_template.md` - Template for practicing any problem
+
 ## Overview
 
 Each data structure has its own folder with:
@@ -9,6 +32,9 @@ Each data structure has its own folder with:
 - **answers/check_*.py**: Answer checker to validate your solutions
 
 ## Structure
+
+### Introduction (START HERE)
+0. **00_introduction** - Interview prep guide, problem-solving framework, and quick reference
 
 ### Basic Data Structures
 1. **01_strings** (`strings_lesson.py`) - Text manipulation and processing
@@ -81,14 +107,36 @@ This will:
 
 ## Learning Path
 
-**Recommended Order:**
+**Recommended Order (30-Day Roadmap):**
 
-1. Start with **strings**, **lists**, and **tuples** to build fundamentals
-2. Move to **dictionaries** and **sets** for hash-based structures
-3. Learn **stacks** and **queues** for algorithm foundations
-4. Progress to **heaps** for priority operations
-5. Master **linked lists** and **trees** for node-based structures
-6. Finish with **graphs** and **tries** for advanced algorithms
+### Week 0: Foundation (START HERE!)
+0. **Complete `00_introduction`** - Learn the 7-step framework and problem-solving approach
+
+### Week 1: Critical Structures (Must Master)
+1. **Arrays/Lists** (`02_lists`) - 70% of interview problems
+2. **Strings** (`01_strings`) - 60% of interview problems
+3. **Hash Maps/Sets** (`04_dictionaries`, `05_sets`) - 65% of interview problems
+
+### Week 2: Sequential Structures (High Priority)
+4. **Stacks** (`06_stacks`) - 40% of interview problems
+5. **Queues** (`07_queues`, `08_deques`) - 35% of interview problems
+6. **Linked Lists** (`09_linked_lists`) - 30% of interview problems
+
+### Week 3: Hierarchical Structures (Important)
+7. **Binary Trees** (`11_trees`) - 45% of interview problems
+8. **Heaps** (`10_heaps`) - 25% of interview problems
+9. **Graphs** (`12_graphs`) - 30% of senior interviews
+
+### Week 4: Advanced + Practice
+10. **Tries** (`13_tries`) - 15% of specialized problems
+11. **Tuples** (`03_tuples`) - Supporting concepts
+12. Mixed problem practice and mock interviews
+
+**Interview Frequency Guide:**
+- ⭐⭐⭐⭐⭐ CRITICAL: Lists, Strings, Hash Maps/Sets, Stacks, Queues, Trees
+- ⭐⭐⭐⭐ IMPORTANT: Linked Lists, Heaps
+- ⭐⭐⭐ ADVANCED: Graphs, Tries
+- ⭐⭐ SUPPORTING: Tuples, Deques
 
 ## Tips for Success
 
