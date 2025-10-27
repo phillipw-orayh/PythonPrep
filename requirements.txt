@@ -1,0 +1,8 @@
+# Python Interview Prep - Requirements
+# No external dependencies required for core functionality
+# Python 3.8+ standard library is sufficient
+
+# Optional dependencies for future features:
+# anthropic>=0.18.0  # For Claude API integration (ai_feedback.py)
+# openai>=1.0.0      # For OpenAI API integration (alternative)
+# requests>=2.31.0   # For HTTP requests if needed
